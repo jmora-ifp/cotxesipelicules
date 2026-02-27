@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: url(../img/fons.jpg);
+    font-family: Helvetica, Arial, Sans-Serif;
+    background-image: linear-gradient(45deg, ivory 0%,ivory 50%,pink 50%, pink 100%);
+}
+
+
+.contenidor {
+    width: 960px;
+    margin: auto;
+
+}
+
+.cap {
+    height:589px;
+    background-image: url(../img/ani/back.png);
+    animation: expocotxes 24s infinite ease-in-out;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 5px;
+}
+
+b {
+    color: grey;
+}
+
+.cos {
+    height:;
+    background: red;
+}
+
+.peu {
+    height:220px;
+    text-align: center;
+}
+
+.cotxe {
+    width: 300px;
+    height: 240px;
+    margin: 10px;
+    float: left;
+    background-size: 100%;
+    transition: 0.6s;
+}
+
+.cotxe:hover {
+    transform: rotate(360deg);
+}
+
+.cotxe p {
+    background: white;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pulp {
+    background-image: url(../img/small/small_pulp.jpg);  
+}
+
+.taxi {
+    background-image: url(../img/small/small_taxi.jpg);
+}
+
+.bond {
+    background-image: url(../img/small/small_bond.jpg);  
+}
+
+.ghost {
+    background-image: url(../img/small/small_ghost.jpg);
+}
+
+.bean {
+    background-image: url(../img/small/small_bean.jpg);  
+}
+
+.back {
+    background-image: url(../img/small/small_back.jpg);
+}
+
+.knight {
+    background-image: url(../img/small/small_rider.jpg);  
+}
+
+.team {
+    background-image: url(../img/small/small_team.jpg);
+}
+
+.break {
+    background-image: url(../img/small/small_break.jpg);
+}
+
+
+@keyframes expocotxes {
+  0% {
+        background-image: url(../img/ani/back.png);
+  }
+
+  11% {
+        background-image: url(../img/ani/bean.png);
+  }
+
+   22% {
+        background-image: url(../img/ani/bond.png);
+  }
+
+   33% {
+        background-image: url(../img/ani/break.png);
+  }
+
+   44% {
+        background-image: url(../img/ani//ghost.png);
+  }
+
+
+   55% {
+        background-image: url(../img/ani/pulp.png);
+  }
+
+   66% {
+        background-image: url(../img/ani/rider.png);
+  }
+
+   77% {
+        background-image: url(../img/ani/taxi.png);
+  }
+
+    88% {
+        background-image: url(../img/ani/back.png);
+  }
+
+  100% {
+        background-image: url(../img/ani/team.png);
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .contenidor{
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .contenidor{
+        width: 320px;
+    }
+}
